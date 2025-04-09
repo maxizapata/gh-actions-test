@@ -23,4 +23,4 @@ jobs:
       - run: |
           docker images
       - run: |
-          ls -l /
+          ls -la /
