@@ -26,3 +26,4 @@ jobs:
           /script.sh
       - run: |
           docker images
+          
