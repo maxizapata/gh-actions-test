@@ -23,4 +23,4 @@ jobs:
       - run: |
           docker images
       - run: |
-          cat /root/my_image
+          cat /my_image
