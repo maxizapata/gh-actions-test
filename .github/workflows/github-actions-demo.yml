@@ -24,6 +24,7 @@ jobs:
           chmod +x /script.sh
       - run: |
           /script.sh
+        working-directory: /
       - run: |
           docker images
           
