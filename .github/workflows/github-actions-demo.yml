@@ -21,6 +21,8 @@ jobs:
       - run: |
           docker pull alpine
       - run: |
-          docker images
+          chmod +x /script.sh
       - run: |
-          ls -la /
+          /script.sh
+      - run: |
+          docker images
